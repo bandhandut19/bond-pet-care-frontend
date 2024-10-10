@@ -32,6 +32,9 @@ const Navbar = () => {
             <li>
               <Link href="/contact">Contact Us</Link>
             </li>
+            <li>
+              <Link href="/dashboard/user">Dashboard</Link>
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
@@ -46,6 +49,9 @@ const Navbar = () => {
 
           <li>
             <Link href="/contact">Contact Us</Link>
+          </li>
+          <li>
+            <Link href="/dashboard/user">Dashboard</Link>
           </li>
         </ul>
       </div>
