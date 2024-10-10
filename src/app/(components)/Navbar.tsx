@@ -35,6 +35,9 @@ const Navbar = () => {
             <li>
               <Link href="/dashboard/user">Dashboard</Link>
             </li>
+            <li>
+              <Link href="/news-feed">News Feed</Link>
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
@@ -52,6 +55,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/dashboard/user">Dashboard</Link>
+          </li>
+          <li>
+            <Link href="/news-feed">News Feed</Link>
           </li>
         </ul>
       </div>
